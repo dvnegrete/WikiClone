@@ -49,8 +49,7 @@ header img {
     display: block;
     text-decoration: none;
     font-weight: bold;
-    margin-bottom: 1rem;
-    
+    margin-bottom: 1rem;    
 }
 
 .main_principal span {
@@ -58,8 +57,7 @@ header img {
     color: #54595d;   
 }
 
-.main_principal_line1 {
-  
+.main_principal_line1 {  
     margin: 2.3rem auto;
     padding: 0 10rem;
 }
@@ -165,7 +163,7 @@ header img {
     font-size: 1.6rem;
 }
 
-aside {
+.aside {
     width: 95vw;
     border-top: solid gray .5px;
     border-bottom:  solid gray .5px;
@@ -217,8 +215,7 @@ aside {
 
 .aside-left-div-texto {
     width: 85%;
-    padding: 0 5%;   
-    
+    padding: 0 5%;
 }
 
 .aside-right {
