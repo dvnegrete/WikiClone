@@ -189,10 +189,6 @@ header img {
     width: 50rem;
 }
 
-.aside-container1-div-logo {
-    width: 3.5rem;
-}
-
 .aside-container2 {
     display: flex;
     order: 2;
@@ -200,42 +196,25 @@ header img {
     width: 50rem;
 }
 
-.aside-container2-div-logo{
+.aside-logos {
     width: 3.5rem;
-}
-
-.aside-left-div-logos {       
-    width: 15%;
-    height: 100%;
-}
-
-.aside-logos-left {
-    width: 100%;
-    background: none;
-}
-
-.aside-left-div-texto {
-    width: 85%;
-    padding: 0 5%;
-}
-
-.aside-right {
-    width: 60%;
-    padding: 1%;
 }
 
 aside a {
     color: var(--colorfontPrincipal);
 }
 
-
-.aside-logos-right {
-    width: 3.5rem;
-}
-
 .aside-container3 {
     width: 60vw;
+    display: flex;
     order: 3;
+    flex-wrap: nowrap;
+}
+
+.containerGeneral {
+    display: flex;
+    width: 30%;
+    height: 5rem;
 }
 
 .footer {
