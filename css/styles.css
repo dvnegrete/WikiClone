@@ -176,10 +176,6 @@ header img {
     font-family: var(--fontFamily);
 }
 
-.aside img {
-    width: 3.5rem;
-}
-
 .aside-descarga-apps {
     height: 3rem;
     background: none;
@@ -232,6 +228,7 @@ aside a {
     color: var(--colorfontPrincipal);
 }
 
+
 .aside-logos-right {
     width: 3.5rem;
 }
@@ -261,7 +258,7 @@ aside a {
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
-    color: blue;
+    color: var(--colorfontPrincipal);
 }
 
 .footer__portafolio-button {
@@ -270,12 +267,16 @@ aside a {
     width: 10rem;
     border-radius: 5px;
     border: none;
-    background-color: #2980B9;
-    color: blue;
+    background-color: #FFC947;
+    color: var(--colorfontPrincipal);
 }
 
 .footer__portafolio-button:hover {
     cursor: pointer;
+    box-shadow: #2980B9;
+    border: 1.5px solid blue;
+    color:blue;
+    text-decoration: underline;
 }
 
 .footer__portafolio p {
@@ -303,9 +304,4 @@ aside a {
 .footer__nav a:hover {
     text-decoration: underline;
     font-weight: bold;
-}
-
-
-@media (max-width: 700px) {
-
 }
