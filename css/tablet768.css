@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+    .footer {
+        flex-flow: wrap;
+    }
+    
+    .footer__portafolio {
+        order: 0;
+        flex-direction: column;
+        width: 50%;
+        padding: 0;
+        padding-top: 3.5rem;
+        color: var(--colorfontPrincipal);
+    }
+
+    .footer__nav {
+        width: 50%;
+        order: 1;
+    }
+}

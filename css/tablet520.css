@@ -1,0 +1,5 @@
+@media (min-width: 520px) {
+    .footer__portafolio {
+        justify-content: space-evenly;
+    }
+}

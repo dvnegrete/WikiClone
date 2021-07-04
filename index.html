@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/tablet520.css">
+    <link rel="stylesheet" href="./css/tablet768.css"> 
+    <link rel="stylesheet" href="./css/Desktop1024.css">
     <title>WikiClon</title>
 </head>
 <body>
@@ -176,11 +179,15 @@
             </div>
         </section>
     </aside>
-    <footer>
-        <span>Esta página está fue creada para una practica por  </span>
-        <span>Damián V.N.</span>
-        <span>Términos de uso</span>
-        <span>Normativa de privacidad</span>
+    <footer class="footer">
+        <form class="footer__portafolio">
+            <p>Sitio clon creado por <b>Damián V.N.</b><br> Para ver otros proyectos visite mi sitio personal</p>
+            <button class="footer__portafolio-button" >Portafolio</button>
+        </form>
+        <ul class="footer__nav">
+            <li><a href="">Términos de uso</a></li>
+            <li><a href="">Normativa de privacidad</a></li>
+        </ul>
     </footer>
 </body>
 </html>
