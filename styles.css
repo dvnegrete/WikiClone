@@ -175,6 +175,10 @@ header img {
     font-family: var(--fontFamily);
 }
 
+.aside img {
+    width: 3.5rem;
+}
+
 .aside-descarga-apps {
     height: 3rem;
     background: none;
@@ -226,7 +230,6 @@ header img {
 aside a {
     color: var(--colorfontPrincipal);
 }
-
 
 .aside-logos-right {
     width: 3.5rem;
