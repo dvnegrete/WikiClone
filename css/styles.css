@@ -35,17 +35,15 @@ header img {
 }
 
 .main_principal {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
-    grid-template-rows: 5 auto;
-    margin: 0 auto;
-    width: 70rem;
+    display: flex;
+    width: 100vw;
     height: 50rem;
     font-family: var(--fontFamily);
+    flex-wrap: wrap;
 }
 
 .main_principal a {    
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: var(--colorfontPrincipal);
     display: block;
     text-decoration: none;
@@ -54,53 +52,25 @@ header img {
 }
 
 .main_principal span {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #54595d;   
 }
 
-.main_principal_line1 {  
-    margin: 2.3rem auto;
-    padding: 0 10rem;
-}
-
-.main_principal_line2 {
-    display: flex;
-    justify-content: space-between;
-    margin: 2.3rem auto;
-    padding: 0 6rem;
-}
-
-.main_principal_line3 {
-    display: flex;
-    justify-content: space-between;
-    margin: 2.3rem auto;
-    padding: 0 3rem;  
-}
-
-.main_principal_line4 {
-    display: flex;
-    justify-content: space-between;
-    margin: 2.3rem auto;
-    padding: 0 6rem;  
-}
-
-.main_principal_line5 {
-    display: flex;
-    justify-content: space-between;
-    margin: 2.3rem auto;
-    padding: 0 10rem; 
-}
-
 .main_principal_divGeneral {
-    width: 16rem;
+    width: 32%;
     height: 5rem;
-    text-align: center;    
+    text-align: center;
+    padding: 0 1rem;
 }
 
 .main_principal_divGeneral:hover {
     cursor: pointer;
     background-color: #eaecf0;
     text-decoration: underline;
+}
+
+.diseñador {
+    order: -1;
 }
 
 .main_busqueda {
