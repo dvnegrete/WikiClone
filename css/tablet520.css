@@ -1,4 +1,10 @@
 @media (min-width: 520px) {
+    .main__busqueda {
+        order: 0;
+        width: 100vw;
+        margin: 0 auto;
+    }
+    
     .footer__portafolio {
         justify-content: space-evenly;
     }

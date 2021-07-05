@@ -15,7 +15,7 @@
        <h2>La enciclopedia clon</h2>       
            <img src="./assets/Wikipedia-logo-v2.png" alt="Logo de Wikipedia">       
     </header>
-    <main>
+    <main class="main">
         <section class="main_principal">            
             <div class="main_principal_divGeneral">
                 <a href="">Español</a>
@@ -59,10 +59,10 @@
                 <span>1 473 000 + hase|</span>
             </div>
         </section>
-        <section class="main_busqueda">
-            <div>
-                <input type="text" class="main_busqueda__texto">
-                <select class="main_busqueda__idioma">                    
+        <section class="main__busqueda">
+            <form class="main__busqueda__container">
+                <input type="text" class="main__busqueda__texto">
+                <select class="main__busqueda__idioma">                    
                     <option value="Español">ES</option>
                     <option value="English">EN</option>
                     <option value="Deutch">DEU</option>
@@ -71,8 +71,8 @@
                     <option value="Português">PORT</option>
                     <option value="Polski">POLS</option>
                 </select>                               
-            </div>
-            <button>
+            </form>
+            <button class="main__busqueda--button">
                 <img src="./assets/icon_search_wikiclon_transparente.png" alt="">
             </button>
         </section>
