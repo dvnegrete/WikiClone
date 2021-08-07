@@ -51,7 +51,9 @@ html {
 .main {
     display: flex;
     flex-direction: column;
+    align-items: center;    
 }
+
 .main_principal {
     display: flex;
     width: 100vw;
@@ -87,21 +89,21 @@ html {
     text-decoration: underline;
 }
 
-.diseñador {
+.item5, .item6 {
     order: -1;
 }
 
 .main__busqueda {
     order: -1;
     display: flex;
-    margin-top: 4rem;
+    margin: 3rem 0;
     max-width: 55rem;
-    padding: 0 2rem;
+    justify-content: center;
     height: 6rem;
 }
 
 .main__busqueda__container {
-    width: 90%;
+    width: 100%;
     height: 5rem;
     border: gray solid .5px;
     display: flex;
@@ -126,7 +128,7 @@ html {
 }
 
 .main__busqueda--button {
-    width: 10%;
+    width: 5rem;
     height: 5rem;
     background-color: var(--colorfontPrincipal);
     border-style: none;
@@ -162,7 +164,7 @@ html {
 }
 
 .aside {
-    width: 95vw;
+    width: 100vw;
     height: auto;
     border-top: solid gray .5px;
     border-bottom:  solid gray .5px;
@@ -204,8 +206,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    order: 3;
-    
+    order: 3;    
     width: 100vw;
     background-color: #f0f8ff;
     padding: 2rem;
@@ -233,8 +234,8 @@ html {
 }
 
 aside a {
-    color: var(--colorfontPrincipal);
     text-decoration: none;
+    color: var(--colorfontPrincipal);
 }
 
 .aside-container3 {
@@ -267,6 +268,13 @@ aside a {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0.5rem;
+}
+
+.containerGeneral--link {
+    width: 100%;
+    text-decoration: none;
+    height: 8rem;
+    color: none;
 }
 
 .footer {

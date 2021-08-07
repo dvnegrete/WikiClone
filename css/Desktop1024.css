@@ -1,10 +1,4 @@
 @media (min-width: 1024px) {
-    .footer__portafolio {
-        flex-direction: row;
-        width: 40vw;
-        padding: 2rem;
-    }
-
     .footer__nav {
         justify-content: space-evenly;
         width: 60vw;

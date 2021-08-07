@@ -1,17 +1,104 @@
 @media (min-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        height: 7rem;
+        margin-top: 4rem;
+        padding: 0;
+    }
+
+    .header__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logoPrincipal {        
+        order: 1;
+        margin-top: 17rem;
+        width: 22rem;
+        height: auto;
+        position: absolute;
+    }
+
+    .main_principal {
+        max-width: 768px;
+        margin: 2rem auto;
+        height: 40rem;
+        display: grid;
+        grid-template-columns: 1fr, 1fr, 1fr, 22rem, 1fr, 1fr, 1fr;        
+        grid-template-rows: repeat(5,20%);
+        justify-items: center;
+        align-items: center;
+        row-gap: 2px;
+    }        
+
+    .main_principal_divGeneral {
+        width: 15rem;
+        height: 6rem;        
+        padding: 0 1rem;
+    }
+
+    .main_principal .item1 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 1    
+    }
+
+    .main_principal .item2 {
+        grid-column: 4 / 4;
+        grid-row: 1 / 1;
+    }
+
+    .main_principal .item3 {
+        grid-column: 1 / 3;
+        grid-row: 2 / 2;
+    }
+
+    .main_principal .item4 {
+        grid-column: 4 / 6;
+        grid-row: 2 / 2;
+    }
+
+    .main_principal .item5 {
+        grid-column: 1 / 1;
+        grid-row: 3 / 3;
+    }
+
+    .main_principal .item6 {
+        grid-column: 5 / 6;
+        grid-row: 3 / 3;
+    }
+
+    .main_principal .item7 {
+        grid-column: 1 / 3;
+        grid-row: 4 / 4;
+    }
+
+    .main_principal .item8 {
+        grid-column: 4 / 6;
+        grid-row: 4 / 4;
+    }
+
+    .main_principal .item9 {
+        grid-column: 2 / 3;
+        grid-row: 5 / 5;
+    }
+
+    .main_principal .item10 {
+        grid-column: 4 / 4;
+        grid-row: 5 / 5;
+    }
+    
+    .main__busqueda {
+        order: 0;
+        width: 100vw;
+        margin: 0 auto;
+    }
+
     .footer {
         flex-flow: wrap;
     }
     
-    .footer__portafolio {
-        order: 0;
-        flex-direction: column;
-        width: 50%;
-        padding: 0;
-        padding-top: 3.5rem;
-        color: var(--colorfontPrincipal);
-    }
-
     .footer__nav {
         width: 50%;
         order: 1;
