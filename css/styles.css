@@ -188,7 +188,8 @@ html {
     justify-content: center;
     align-items: center;
     order: 1;
-    width: 100vw;
+    max-width: 76.8rem;
+    padding: 2rem 3rem;
 }
 
 .aside__container1--figure {
@@ -207,9 +208,9 @@ html {
     justify-content: center;
     align-items: center;
     order: 3;    
-    width: 100vw;
+    max-width: 76.8rem;    
     background-color: #f0f8ff;
-    padding: 2rem;
+    padding: 2rem 3rem;
     font-size: 1.3rem;
 }
 
@@ -238,7 +239,7 @@ aside a {
     color: var(--colorfontPrincipal);
 }
 
-.aside-container3 {
+.aside__container3 {
     display: flex;
     order: 2;
     align-items: center;
@@ -250,7 +251,7 @@ aside a {
 
 .containerGeneral {
     display: inline-flex;
-    width: 13rem;
+    width: 15rem;
     height: 8rem;
     margin: 1rem;
 }

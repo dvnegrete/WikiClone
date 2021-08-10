@@ -95,6 +95,37 @@
         margin: 0 auto;
     }
 
+    .aside {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        row-gap: 2px;
+        padding: 2rem;
+        grid-template-areas: 
+        "aside1 aside3 aside3"
+        "aside2 aside3 aside3";
+    }
+
+    .aside__container1 {
+        grid-area: aside1;
+    }
+
+    .aside__container2 {
+        grid-area: aside2;
+    }
+
+    .aside__container3 {
+        grid-area: aside3;
+        width: auto;
+        min-height: 40rem;
+        display: flex;
+        align-content: space-between;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+
     .footer {
         flex-flow: wrap;
     }

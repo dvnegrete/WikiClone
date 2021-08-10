@@ -1,4 +1,9 @@
 @media (min-width: 1024px) {
+    .aside__container3 {
+        align-content: space-evenly;
+        justify-content: space-evenly;
+    }
+
     .footer__nav {
         justify-content: space-evenly;
         width: 60vw;
